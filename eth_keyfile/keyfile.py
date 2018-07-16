@@ -5,7 +5,8 @@ import uuid
 
 from Crypto import Random
 from Crypto.Cipher import AES
-from Crypto.Protocol.KDF import scrypt
+# from Crypto.Protocol.KDF import scrypt
+import scrypt
 from Crypto.Util import Counter
 
 from eth_keys import keys
